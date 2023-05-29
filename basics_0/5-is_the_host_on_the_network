@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #if there is no argument then i display text
 if [ $# -eq 0 ]; then
-    >&2 echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
     exit 1
 fi
 #end of if
